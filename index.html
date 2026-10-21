@@ -1,0 +1,151 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<meta name="theme-color" content="#f7b5cc">
+<title>Find Your Pookie 💘</title>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+<header class="topbar">
+  <a class="logo" href="#home"><span>♡</span> PookieFinder <small>™</small></a>
+  <span class="top-note">LOVE IS A SEARCH QUERY.</span>
+</header>
+
+<main>
+  <section class="intro" id="home">
+    <div class="sticker">100%<br>SCIENTIFIC*</div>
+    <div class="hero-heart">💘</div>
+    <p class="eyebrow">THE CAMPUS MATCHMAKING ALGORITHM™</p>
+    <h1>Find your<br><em>forever-ish</em> person.</h1>
+    <p class="subhead">Tell us about yourself. Tell us your type. Let our extremely questionable algorithm do its thing.</p>
+    <a class="btn" href="#profile">FIND MY POOKIE <span>→</span></a>
+    <div class="tiny-hearts">♡ &nbsp; ♡ &nbsp; ♡</div>
+  </section>
+
+  <section class="fortune">
+    <div class="fortune-top"><span>YOUR DAILY DOSE OF DELUSION</span><span>✳ 01 / 03 ✳</span></div>
+    <h2>“Your future is bright.<br>Probably a screen brightness issue.”</h2>
+  </section>
+
+  <section class="form-section" id="profile">
+    <div class="section-top"><span class="step">PROFILE 01 / 03</span><span class="progress"><i></i></span></div>
+    <form action="#partner" method="get">
+      <p class="eyebrow">FIRST, THE MAIN CHARACTER</p>
+      <h2>Let’s get to<br><em>know you.</em></h2>
+      <div class="fields">
+        <label>Your name <input name="name" placeholder="e.g. Certified Cutie" maxlength="50" required></label>
+        <label>Branch / department <input name="branch" placeholder="e.g. CSE, ECE, Civil" required></label>
+        <div class="field-row">
+          <label>Year of study <select name="year" required><option value="">Choose year</option><option>1st year</option><option>2nd year</option><option>3rd year</option><option>4th year</option><option>Postgrad / other</option></select></label>
+          <label>Hostel <input name="hostel" placeholder="Your hostel" required></label>
+        </div>
+        <label>Room number <input name="room" placeholder="Optional — keep it mysterious" maxlength="20"></label>
+        <div class="field-row">
+          <label>State <input name="state" placeholder="Your state" required></label>
+          <label>City <input name="city" placeholder="Your city" required></label>
+        </div>
+        <div class="field-row">
+          <label>Mother tongue <input name="motherTongue" placeholder="Your mother tongue" required></label>
+          <label>Religion <select name="userReligion" required><option value="">Choose religion</option><option>Hindu</option><option>Muslim</option><option>Christian</option><option>Sikh</option><option>Buddhist</option><option>Jain</option><option>Other</option><option>Prefer not to say</option></select></label>
+        </div>
+      </div>
+      <a class="btn form-next" href="#details">NEXT: THE LORE →</a>
+    </form>
+  </section>
+
+  <section class="form-section" id="details">
+    <div class="section-top"><span class="step">PROFILE 02 / 03</span><span class="progress"><i class="two-thirds"></i></span></div>
+    <form action="#partner" method="get">
+      <p class="eyebrow">THE VITAL STATISTICS (ISH)</p>
+      <h2>Your lore,<br><em>your rules.</em></h2>
+      <div class="fields">
+        <div class="field-row">
+          <label>Monthly income (₹) <select name="income"><option>Prefer not to say</option><option>₹0 — financially mysterious</option><option>Under ₹5,000</option><option>₹5,000–₹15,000</option><option>₹15,000+</option><option>Rich in vibes</option></select></label>
+          <label>Date of birth <input name="dob" type="date"></label>
+        </div>
+        <div class="field-row">
+          <label>Height <select name="height"><option>Choose height</option><option>Under 150 cm</option><option>150–160 cm</option><option>161–170 cm</option><option>171–180 cm</option><option>181–190 cm</option><option>190+ cm</option><option>Height of ambition</option></select></label>
+          <label>Weight <select name="weight"><option>Choose weight</option><option>Under 50 kg</option><option>50–60 kg</option><option>61–70 kg</option><option>71–80 kg</option><option>81+ kg</option><option>Classified information</option></select></label>
+        </div>
+        <div class="field-row">
+          <label>Gender <select name="gender"><option>Prefer not to say</option><option>Woman</option><option>Man</option><option>Non-binary</option><option>Other</option><option>Still buffering</option></select></label>
+          <label>Astrological profile <select name="zodiac"><option>Choose your cosmic setting</option><option>Aries — red flag with confidence</option><option>Taurus — snacks first</option><option>Gemini — two tabs open</option><option>Cancer — emotional support playlist</option><option>Leo — main character</option><option>Virgo — corrected your grammar</option><option>Libra — can't pick a date</option><option>Scorpio — mysterious™</option><option>Sagittarius — already travelling</option><option>Capricorn — calendar invite sent</option><option>Aquarius — built different</option><option>Pisces — daydreaming</option><option>Mercury is in retrograde, help</option></select></label>
+        </div>
+        <label>Your campus personality <select name="personality"><option>Quietly iconic</option><option>Academic weapon (sometimes)</option><option>Professional yapper</option><option>Hostel celebrity</option><option>Gym arc loading</option><option>Powered by chai and deadlines</option></select></label>
+      </div>
+      <a class="btn form-next" href="#partner">NEXT: MY TYPE →</a>
+    </form>
+  </section>
+
+  <section class="form-section" id="partner">
+    <div class="section-top"><span class="step">PROFILE 03 / 03</span><span class="progress"><i class="full"></i></span></div>
+    <form action="#search" method="get">
+      <p class="eyebrow">DESCRIBE YOUR DREAM HUMAN</p>
+      <h2>Set your<br><em>pookie criteria.</em></h2>
+      <div class="fields">
+        <label>What should their name start with? <input name="initial" placeholder="Any letter or name preference (optional)" maxlength="50"></label>
+        <div class="field-row">
+          <label>Preferred height <select name="pHeight"><option>Any height</option><option>Under 160 cm</option><option>160–170 cm</option><option>171–180 cm</option><option>181+ cm</option><option>Taller than my problems</option></select></label>
+          <label>Preferred build <select name="build"><option>Any build — vibes matter</option><option>Lean</option><option>Sporty</option><option>Strong enough to open jars</option><option>Certified cuddle-shaped</option></select></label>
+        </div>
+        <label>Complexion preference <select name="complexion"><option>No preference — all complexions are beautiful</option><option>Warm undertones</option><option>Cool undertones</option><option>Olive undertones</option><option>Whatever the lighting says</option></select></label>
+        <div class="field-row">
+          <label>Preferred religion / values <select name="religion"><option>Values and respect matter most</option><option>Hindu</option><option>Muslim</option><option>Christian</option><option>Sikh</option><option>Buddhist</option><option>Jain</option><option>Other</option><option>Prefer not to specify</option></select></label>
+          <label>Preferred mother tongue <input name="partnerMotherTongue" placeholder="Any language / no preference" maxlength="50"></label>
+        </div>
+        <div class="field-row">
+          <label>Preferred state <input name="partnerState" placeholder="Any state / no preference" maxlength="60"></label>
+          <label>Preferred city <input name="partnerCity" placeholder="Any city / no preference" maxlength="60"></label>
+        </div>
+        <div class="field-row">
+          <label>Same branch? <select name="branchPref"><option>Doesn’t matter</option><option>Same branch</option><option>Different branch (mystery!)</option><option>Someone who can debug my code</option></select></label>
+        </div>
+        <label>Green flag you absolutely need <select name="greenFlag"><option>Kindness</option><option>Funny without being mean</option><option>Communicates like an adult</option><option>Shares snacks</option><option>Respects my ambitions</option><option>All of the above, obviously</option></select></label>
+        <label>Ideal first date <select name="dateIdea"><option>Chai and a long conversation</option><option>Sunset walk</option><option>Street food tour</option><option>Study date that becomes a gossip session</option><option>Gaming / movie night</option><option>Fancy dinner (in this economy?)</option></select></label>
+        <label>One dealbreaker <input name="dealbreaker" maxlength="100" placeholder="e.g. hates dogs, leaves me on read"></label>
+      </div>
+      <a class="btn form-next" href="#search">FIND MY MATCH ✨</a>
+      <p class="privacy-note">This button is a CSS-only demo link. No real search happens and no answers are saved or sent.</p>
+    </form>
+  </section>
+
+  <section class="search-section" id="search">
+    <div class="search-loading-content">
+      <div class="scanner"><div class="scanner-core">💘</div><div class="scan-ring ring-a"></div><div class="scan-ring ring-b"></div></div>
+      <p class="eyebrow">POOKIEFINDER DEEP-SCAN PROTOCOL · SECURE CUPID NODE 07</p>
+      <h2>Running an extremely serious pookie investigation...</h2>
+      <p>Scanning campus vibes, cross-checking cosmic compatibility, and consulting the Department of Delulu.</p>
+      <div class="loading-track"><i></i></div>
+      <div class="research-console" aria-label="Simulated matchmaking research progress">
+        <div class="console-head"><span><i></i> LIVE MATCH ANALYSIS</span><span>ENCRYPTION: PINK</span></div>
+        <div class="research-step"><span class="step-icon">⌕</span><span><b>Campus-wide candidate sweep</b><small>Reviewing 4,287 highly classified pookie profiles</small></span><em>SCANNING</em></div>
+        <div class="research-step"><span class="step-icon">♡</span><span><b>Vibe & personality correlation</b><small>Comparing humour, kindness, snack habits and lore</small></span><em>ANALYSING</em></div>
+        <div class="research-step"><span class="step-icon">✳</span><span><b>Cosmic compatibility matrix</b><small>Checking zodiac alignment and suspicious coincidences</small></span><em>CROSS-CHECK</em></div>
+        <div class="research-step"><span class="step-icon">⌁</span><span><b>Red-flag & green-flag audit</b><small>Filtering ghosters, snack thieves and dry texters</small></span><em>VERIFYING</em></div>
+        <div class="console-footer"><span>QUERY ID: PK-07-LOVE</span><span>RESULT CONFIDENCE: UNREASONABLY HIGH</span></div>
+      </div>
+      <div class="search-stats"><span><b>4,287</b><small>PROFILES REVIEWED*</small></span><span><b>128</b><small>VIBE CHECKS</small></span><span><b>1</b><small>DESTINY DETECTED</small></span></div>
+      <p class="fineprint">*A dramatic CSS-only simulation. No real database is queried; your destiny is still loading...</p>
+    </div>
+    <div class="search-result-inline" aria-live="polite">
+      <p class="eyebrow">THE ALGORITHM HAS SPOKEN</p>
+      <div class="result-card">
+        <div class="result-top"><span>YOUR HIGHLY QUESTIONABLE MATCH</span><span>№ 0001</span></div>
+        <div class="match-image-stage" aria-label="Your randomly selected pookie match">
+          <img class="match-image" id="matchImage" src="pookie-nilgai.png" alt="A nilgai decorated with cute pink bows">
+        </div>
+        <p class="creature-label">YOUR POOKIE MATCH</p>
+        <h2>Destiny has chosen 💗</h2>
+        <p class="match-description">The search is over. Your pookie neelgai has arrived with iconic energy and absolutely unmatched rizz.</p>
+        <div class="match-tags"><span>💗 100% fictional</span><span>✨ Premium pookie</span><span>🧃 Snack compatible</span></div>
+      </div>
+      <a class="btn" href="#home">TRY AGAIN FROM THE TOP ↻</a>
+    </div>
+  </section>
+</main>
+<footer><span>POOKIEFINDER © 2026</span><span>MADE WITH TOO MUCH DELUSION &lt;3</span><a href="#home">RESET REALITY ↗</a></footer>
+<script src="script.js"></script>
+</body>
+</html>
